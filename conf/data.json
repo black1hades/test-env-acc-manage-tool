@@ -1,0 +1,53 @@
+{
+  "environments": [
+    {
+      "name": "dev",
+      "accounts": [
+        {
+          "name": "admin",
+          "host": "http://dev.example.com",
+          "account": "admin",
+          "password": "123456"
+        }
+      ]
+    },
+    {
+      "name": "test",
+      "accounts": [
+        {
+          "name": "admin",
+          "host": "http://test.example.com",
+          "account": "admin",
+          "password": "123456"
+        }
+      ]
+    },
+    {
+      "name": "staging",
+      "accounts": [
+        {
+          "name": "admin",
+          "host": "http://staging.example.com",
+          "account": "admin",
+          "password": "123456"
+        },
+        {
+          "name": "user1",
+          "host": "http://staging.example.com",
+          "account": "user1",
+          "password": "123456"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "title": "测试数据生成",
+      "content": "https://www.mockaroo.com/"
+    },
+    {
+      "title": "测试文件生成",
+      "content": "https://samplelib.com/zh/"
+    }
+  ]
+}
